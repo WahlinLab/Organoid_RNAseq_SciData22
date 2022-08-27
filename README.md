@@ -24,8 +24,8 @@ Data is available in NCBI Sequence Read Archive (SRA) under the BioProject acces
 
 Walkthroughs and code used for all of the quality assessment and data analysis steps are available in each of the below links.
 
-1. [Quality assessment with FastQC](https://github.com/ScottSchumacker/Schumacker2019_Sci_Data/blob/master/Walkthroughs/FastQC-Instructions)
-2. [Sequence trimming with Trimmomatic](https://github.com/ScottSchumacker/Schumacker2019_Sci_Data/blob/master/Walkthroughs/Trimmomatic-Instructions)
-3. [Quality Analysis summary with MultiQC](https://github.com/ScottSchumacker/Schumacker2019_Sci_Data/blob/master/Walkthroughs/MultiQC-Instructions)
-3. [Quantitation with kallisto](https://github.com/ScottSchumacker/Schumacker2019_Sci_Data/blob/master/Walkthroughs/Kallisto-Instructions)
-4. [Normalization, visualization, and differential expression analysis with sleuth](https://github.com/ScottSchumacker/Schumacker2019_Sci_Data/tree/master/R)
+1. [Quality assessment with FastQC]()
+3. [Quality analysis summary with MultiQC]()
+3. [Reference genome alignment with HISAT2]()
+4. [Assign sequence reads to features with featureCounts]()
+5. [Quantify differentially expressed transcripts with DESeq2]()
