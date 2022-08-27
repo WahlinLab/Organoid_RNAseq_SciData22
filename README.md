@@ -8,7 +8,7 @@ This repository contains code used for quality control and data analysis present
 
 ## Data availability
 
-Data is available in NCBI SRA under the accession number (https:).
+Data is available in NCBI Sequence Read Archive (SRA) under the BioProject accession # PRJNA754196 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA754196).
 
 ## Software used
 
