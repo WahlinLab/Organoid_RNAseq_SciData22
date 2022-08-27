@@ -2,7 +2,7 @@
 
 This repository contains code used for quality control and data analysis presented in: 
 
-> **Agarwal D, Kuhns R, Dimitriou CN, Barlow E, Wahlin KJ, Enke RA. RNA Sequencing Analysis of the Human Retina and Associated Ocular Tissues. Scientific Data 2022 (in prep).**
+> **Agarwal D, Kuhns R, Dimitriou CN, Barlow E, Wahlin KJ, Enke RA. Bulk RNA sequencing analysis of developing human induced pluripotent cell-derived retinal organoids. Scientific Data 2022 (in prep).**
 
 ----
 
