@@ -24,8 +24,8 @@ Data is available in NCBI Sequence Read Archive (SRA) under the BioProject acces
 
 Walkthroughs and code used for all of the quality assessment and data analysis steps are available in each of the below links.
 
-1. [Quality assessment with FastQC]()
-3. [Quality analysis summary with MultiQC]()
-3. [Reference genome alignment with HISAT2]()
-4. [Assign sequence reads to features with featureCounts]()
-5. [Quantify differentially expressed transcripts with DESeq2]()
+1. [Quality assessment with FastQC](https://github.com/WahlinLab/Organoid_RNAseq_SciData22/tree/main/Walkthroughs)
+3. [Quality analysis summary with MultiQC](https://github.com/WahlinLab/Organoid_RNAseq_SciData22/tree/main/Walkthroughs)
+3. [Reference genome alignment with HISAT2](https://github.com/WahlinLab/Organoid_RNAseq_SciData22/tree/main/Walkthroughs)
+4. [Assign sequence reads to features with featureCounts](https://github.com/WahlinLab/Organoid_RNAseq_SciData22/tree/main/Walkthroughs)
+5. [Quantify differentially expressed transcripts with DESeq2](https://github.com/WahlinLab/Organoid_RNAseq_SciData22/tree/main/Walkthroughs)
