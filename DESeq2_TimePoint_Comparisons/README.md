@@ -1,5 +1,5 @@
 This folder contains .tabular files outputted by DESeq2 comparing differential gene expression for organoid samples from each time point pair.
-DESeq2 generates a tabular file containing the different columns in the following order (left to right:
+DESeq2 generates a tabular file containing the different columns in the following order (left to right):
 | Column      | Description |
 | ----------- | ----------- |
 | 1      | Gene Identifiers       |
