@@ -2,7 +2,7 @@
 
 This repository contains code used for quality control and data analysis presented in: 
 
-> **Agarwal, D.; Kuhns, R.; Dimitriou, C.N.; Barlow, E.; Wahlin, K.J.; Enke, R.A. Bulk RNA Sequencing Analysis of Developing Human Induced Pluripotent Cell-Derived Retinal Organoids. *Sci Data **2022**, 9*, 759, doi:10.1038/s41597-022-01853-x.**
+> Agarwal, D.; Kuhns, R.; Dimitriou, C.N.; Barlow, E.; Wahlin, K.J.; Enke, R.A. Bulk RNA Sequencing Analysis of Developing Human Induced Pluripotent Cell-Derived Retinal Organoids. *Sci Data **2022**, 9*, 759, https://doi.org/10.1038/s41597-022-01853-x.
 
 ----
 
