@@ -1,1 +1,1 @@
-This folder contains featureCounts .tabular files for all the samples from the paper.
+This folder contains featureCounts .tabular files for all the samples from the paper. These files can be directly used as input for downstream differential gene expression analysis using DESeq2, edgeR, etc.
