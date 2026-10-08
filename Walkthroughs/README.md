@@ -40,5 +40,6 @@ Now we proceed to DESeq2:
 3. Select the combined .tabular file from featureCounts that needs to be analyzed. 
 4. In the experiment design section, add a comma-separated list of sample names (factors) from the tabular file. If you want to include replicates in your analysis, enter the same name for each replicate. If you use different names, the factors will NOT be treated as replicates. Add a comma-separated list of library types for each of the factors listed above. For this analysis, use "paired-end" for each entry.
 5. Click Next and start DESeq2 using the Launch Analysis button.
+
 Note: All DESeq2 output, including pairwise comparisons and normalized counts for the samples from the paper, is available in this GitHub repository.
 
