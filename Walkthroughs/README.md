@@ -31,7 +31,7 @@
 Before using DESeq2, combine all the .tabular files from featureCounts:
 1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard), open applications, search for "Join multiple tab-delimited files".
 2. Select your .tabular files.
-3. Specify the column number (key) that matches between both files; in this case, it is the gene name column.
+3. Specify the column number (key) that matches between both files; in this case, it is the gene ID column.
 4. Launch the tool to generate your merged file.
 
 Now we proceed to DESeq2:
