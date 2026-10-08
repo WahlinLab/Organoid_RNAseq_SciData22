@@ -22,7 +22,7 @@ Data is available in NCBI Sequence Read Archive (SRA) under the BioProject acces
 
 ## Data analysis walkthroughs
 
-Guidelines tracing all of the quality assessment and data analysis steps below are available [here:](https://github.com/WahlinLab/Organoid_RNAseq_SciData22/tree/main/Walkthroughs).
+Guidelines tracing all of the quality assessment and data analysis steps below are available [here](https://github.com/WahlinLab/Organoid_RNAseq_SciData22/tree/main/Walkthroughs).
 
 1. Quality assessment with FastQC
 3. Quality analysis summary with MultiQC
