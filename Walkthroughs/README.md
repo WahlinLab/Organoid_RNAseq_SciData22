@@ -14,7 +14,7 @@
 
 1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard), open applications and load HISAT2-index-align-2.1.
 2. Name the analysis and click Next to set run parameters.
-3. Upload the .fasta genome file from a source such as NCBI (for example, the human genome assembly file can be found [here](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.39/). Also, download the corresponding genome annotation file (.gtf or .gff).
+3. Upload the .fasta genome file from a source such as NCBI (for example, the human genome assembly file can be found [here](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.39/)). Also, download the corresponding genome annotation file (.gtf or .gff).
 4. Select the paired-end .fastq files that need to be aligned. Make sure to choose paired-end (PE) as the file type.
 5. Click Next, confirm the output directory for HISAT2 results, and start HISAT2 using the Launch Analysis button.
 
