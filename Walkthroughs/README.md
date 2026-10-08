@@ -1,26 +1,26 @@
 # FastQC Instructions
 
-1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard) open applications and load FastQC.
+1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard), open applications and load FastQC.
 2. Name the analysis and select the appropriate output folder.
 3. Input .fastq files and run FastQC.
 
 # MultiQC Instructions
 
-1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard) open applications and load MultiQC.
+1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard), open applications and load MultiQC.
 2. Name the analysis and select the appropriate directory where FastQC results are stored.
 3. Click Next, confirm the output directory for MultiQC results, and start MultiQC using the Launch Analysis button.
 
 # HISAT2 Genome Alignment
 
-1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard) open applications and load HISAT2-index-align-2.1.
+1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard), open applications and load HISAT2-index-align-2.1.
 2. Name the analysis and click Next to set run parameters.
-3. Upload the .fasta genome file from a source such as NCBI (for example, the human genome assembly file can be found [here](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.39/). Make sure to also download the corresponding genome annotation file (.gtf or .gff).
-4. Select the paired end .fastq files that need to be aligned. Make sure to choose paired-end (PE) as the file type.
+3. Upload the .fasta genome file from a source such as NCBI (for example, the human genome assembly file can be found [here](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.39/). Also, download the corresponding genome annotation file (.gtf or .gff).
+4. Select the paired-end .fastq files that need to be aligned. Make sure to choose paired-end (PE) as the file type.
 5. Click Next, confirm the output directory for HISAT2 results, and start HISAT2 using the Launch Analysis button.
 
 # Transcript counting via featureCounts
 
-1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard) open applications and load featureCounts.
+1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard), open applications and load featureCounts.
 2. Name the analysis and select the appropriate directory where featureCounts output will be stored.
 3. Click Next, check the box for paired-end reads, and upload the genome annotation file corresponding to the genome downloaded above (.gtf or .gff).
 4. Choose all the .bam files resulting from HISAT2 that need to be counted.
@@ -28,7 +28,7 @@
 
 # Differential Gene Expression Analysis using DESeq2
 
-Before using DESeq, combine all the .tabular files from featureCounts:
+Before using DESeq2, combine all the .tabular files from featureCounts:
 1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard), open applications, search for "Join multiple tab-delimited files".
 2. Select your .tabular files.
 3. Specify the column number (key) that matches between both files; in this case, it is the gene name column.
