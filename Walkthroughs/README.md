@@ -29,15 +29,15 @@
 # Differential Gene Expression Analysis using DESeq2
 
 Before using DESeq, combine all the .tabular files from featureCounts:
-1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard) open applications, search for "Join" or "Merge columns".
+1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard) open applications, search for "Join multiple tab-delimited files".
 2. Select your .tabular files.
-3. Specify the column number (key) that matches between both files.
+3. Specify the column number (key) that matches between both files, in this case it is the gene name column.
 4. Launch the tool to generate your merged file.
 
 Now we proceed to DESeq2:
 1. In [Cyverse Discovery Environment](https://de.cyverse.org/dashboard) open applications and load DESeq2.
 2. Name the analysis and select the appropriate directory where DESeq2 output will be stored.
 3. Select the combined .tabular file from featureCounts that need to be analyzed. 
-4. In the experiment design section, add a comma separated list of sample names (factors) from the tabular file. If you want to include replicates in your analysis, enter the same name for each replicate. If you use different names, the factors will NOT be treated as replicates. Add a comma separated list of library types for each of the factors listed above. For this analysis use paired-end for each entry.
+4. In the experiment design section, add a comma separated list of sample names (factors) from the tabular file. If you want to include replicates in your analysis, enter the same name for each replicate. If you use different names, the factors will NOT be treated as replicates. Add a comma separated list of library types for each of the factors listed above. For this analysis use "paired-end" for each entry.
 5. Click next and start DESeq2 using the launch analysis button.
 
